@@ -1,3 +1,4 @@
 Create a new "temporary user" account with limited duration.
+===========================================================
 
--
+- useradd -e $(date) susisa
