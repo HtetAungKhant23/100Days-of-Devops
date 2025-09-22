@@ -1,0 +1,15 @@
+- Create new user with "non-interactive shell"
+
+Non-interactive shell means that the user will not be able to log in interactively.
+ - /sbin/nologin
+ - /usr/sbin/nologin
+ - /bin/false
+
+- Command (useradd)
+ - useradd -h -> can be used to display help information for the useradd command.
+ - useradd -s /sbin/nologin susisa
+
+
+*** Can check user list with "chage" command ***
+
+- chage -l susisa
