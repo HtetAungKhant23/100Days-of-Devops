@@ -1,0 +1,8 @@
+commands
+========
+
+- !! -> can used to re-execute the last command
+
+- useradd -> create a new user account
+
+- chage -> short term of "change age" -> Manages account aging parameters
