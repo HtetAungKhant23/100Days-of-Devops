@@ -1,0 +1,13 @@
+Restriction of driect root SSH login
+====================================
+
+- ssh နဲ့ ပတ်သက်ပီး ပြင်မယ်ဆိုရင် ssh config ကို ပြင်ရမယ်။
+
+- /etc/ssh -> ssh config ၂ မျိုးရှိတယ် -> "ssh_config" and "sshd_config"
+
+- ssh_config -> local machine ထဲက user အားလုံးအတွက် global ssh config ဖြစ်တယ်
+
+- sshd_config -> other users of other machine တွေကနေ local machine ဆီကို လာဝင်တော့မယ်ဆိုရင် sshd_config ကနေ အလုပ်လုပ်ပေးတယ်
+
+- Restrict driect root SSH login -> sshd_config ထဲက PermitRootLogin ကို no ပြောင်းလိုက်ပါ
+

@@ -1,4 +1,5 @@
-- Create new user with "non-interactive shell"
+Create new user with "non-interactive shell"
+============================================
 
 Non-interactive shell means that the user will not be able to log in interactively.
  - /sbin/nologin
