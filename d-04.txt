@@ -1,0 +1,45 @@
+Script Execution Permissions
+============================
+
+- On Linux/Unix systems, every file has permissions that control what users can do with it:
+
+- 1. Read (r) -> view the contents.
+
+- 2. Write (w) -> modify the file.
+
+- 3. Execute (x) -> run the file as a program/script.
+
+
+
+chmod
+=====
+
+- We can use "chmod" (change mode) command to change file or directory permissions in Linux/Unix. 
+
+
+- Permissions apply to:
+
+- 1. u -> user (owner)
+
+- 2. g -> group
+
+- 3. o -> others (everyone else)
+
+- 4. a -> all (u + g + o)
+
+
+- Operators:
+
+-  1. + -> add permission 
+-  2. - -> remove permission 
+-  3. = -> set only permission 
+
+
+
+Example:
+
+chmod u+x hello.sh   # add execute permission for user
+chmod g-w hello.sh   # remove write permission from group
+chmod o=r hello.sh   # set others to read-only
+chmod a+x hello.sh   # give execute permission to everyone
+
