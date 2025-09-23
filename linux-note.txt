@@ -6,3 +6,14 @@ commands
 - useradd -> create a new user account
 
 - chage -> short term of "change age" -> Manages account aging parameters
+
+
+
+
+
+
+vim 
+===
+
+- search -> /
+- end of line -> $
