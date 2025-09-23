@@ -1,0 +1,6 @@
+SELinux installation & configuration
+==================================
+
+- ls /etc/selinux -> selinux path after install
+
+- can change config file in /etc/selinux/config

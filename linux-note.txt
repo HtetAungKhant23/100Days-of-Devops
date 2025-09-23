@@ -7,7 +7,9 @@ commands
 
 - chage -> short term of "change age" -> Manages account aging parameters
 
+- hostnamectl -> check os
 
+- cat /etc/os-release -> check os detail
 
 
 
