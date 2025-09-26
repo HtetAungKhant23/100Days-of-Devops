@@ -1,0 +1,11 @@
+- Install Ansible
+=================
+
+- pip3 install ansible==4.7
+
+- sudo user run လို့မရနေရင် sudo config change ပေးရမယ်
+
+- which ansible နဲ့ ansible location ကြည့်ပီး 
+sudo visudo နဲ့ sudo config ကို ပြင်မယ် အဲ့မှာ ansible location ကို add ပေးလိုက်
+
+

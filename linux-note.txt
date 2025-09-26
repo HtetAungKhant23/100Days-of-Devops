@@ -11,6 +11,8 @@ commands
 
 - cat /etc/os-release -> check os detail
 
+- which -> check location
+
 
 
 
