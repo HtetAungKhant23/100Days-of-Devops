@@ -1,0 +1,8 @@
+Create Cron Job
+===============
+
+- crontab -l -> can check cron job
+
+- crontab -e -> can add or edit new cron job
+
+- cron file location -> /var/spool/cron/
