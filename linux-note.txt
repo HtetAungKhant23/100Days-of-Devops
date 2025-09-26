@@ -13,6 +13,10 @@ commands
 
 - which -> check location
 
+- chown -> change ownership
+eg: chown -R newuser:newgroup /path/to/directory
+    -R -> recursive
+    -v -> verbose output
 
 
 

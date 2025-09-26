@@ -1,0 +1,14 @@
+- MariaDB Troubleshooting
+=========================
+
+- check status mariadb 
+
+- mariadb.service ကို journalctl -xeu နဲ့ ဖတ်ကြည့်တယ်
+
+- /var/lib/mysql folder မရှိနေလို့ ဖြစ်နေတာ
+
+- /var/lib/mysql create လိုက်မယ်
+
+- mysql user ကို permission ပြောင်းပေးလိုက်မယ်
+
+- sudo chown -R mysql:mysql /var/lib/mysql
