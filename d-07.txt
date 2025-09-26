@@ -1,0 +1,12 @@
+- Linux SSH Authentication
+==========================
+* use key pairs(public/private) to login instead using password
+* must store private key in local machine (server)
+* store public key in (.ssh/authorized_keys) in machine(server) that want to login
+
+
+- ssh-keygen -> generate key pairs
+
+- key pairs location -> .ssh/
+
+- ssh-copy-id (user@server-ip) -> copy and store public key to server
